@@ -1,7 +1,10 @@
 import React from 'react'
+import { ReposList } from '../../components'
 
 export default function InfoDetails() {
   return (
-    <div>infoDetails</div>
+    <div>infoDetails:
+      <ReposList />
+    </div>
   )
 }
