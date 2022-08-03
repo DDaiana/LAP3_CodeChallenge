@@ -1,11 +1,14 @@
 import React from 'react';
-import {TopBar, UserInfo, InfoDetails} from './components';
+import './styles/app.css'
+import {TopBar, UserInfo, InfoDetails} from './layout';
 
 function App() {
   return (
     <div className="App">  
 
-        <TopBar />
+        <div className='main-header'>
+          <TopBar />
+        </div>
 
         <div>
           <UserInfo />
