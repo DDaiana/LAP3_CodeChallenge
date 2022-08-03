@@ -1,11 +1,12 @@
 import React from 'react';
-import { User } from '../../components';
+import { NavBar, User } from '../../components';
 
 
 export default function UserInfo() {
   return (
-    <div>userInformation:
+    <div className='user-info'>userInformation:
       <User />
+      <NavBar />
     </div>
   )
 }

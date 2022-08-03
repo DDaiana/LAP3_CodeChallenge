@@ -3,7 +3,7 @@ import { RepoInfo, ReposList } from '../../components'
 
 export default function InfoDetails() {
   return (
-    <div>infoDetails:
+    <div className='info-details'>infoDetails:
       <ReposList />
       <RepoInfo />
     </div>

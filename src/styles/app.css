@@ -30,5 +30,10 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0.5rem;
 }
 
+.user-info {
+    margin-top: 10px;
+}
 
-
+.info-details {
+    margin-top: 20px;
+}
